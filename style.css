@@ -1,3 +1,7 @@
+body {
+  background-color: #363543;
+}
+
 a.navbar-brand {
   color: white;
   width: 27%;
@@ -16,6 +20,7 @@ a.nav-link {
   margin: 0px 30px;
   font-weight: 600;
 }
+
 a.nav-link:hover {
   color: white;
 }
@@ -40,49 +45,35 @@ img {
   width: 40rem;
   background-color: #2e2c39;
   border-radius: 50%;
-  margin: -22rem 10rem;
+  margin: -22rem 0;
   margin-bottom: 1;
   align-items: center;
 }
-.heading h2 {
-  position: absolute;
-  top: 25%;
-  font-size: 70px;
-  left: 10%;
-  font-family: "Dosis", sans-serif;
-  color: #9e9dab;
-}
-.heading h1 {
-  font-size: 2.5rem;
-  position: absolute;
-  top: 35%;
-  font-size: 84px;
-  font-family: monospace;
-  left: 10%;
-  color: #feffff;
-  font-family: "Mitr", sans-serif;
-}
+
 .hr {
   width: 120px;
   border: 2px solid #ecaf1a;
   padding: -12px;
   position: absolute;
-  left: 12rem;
+  left: 1rem;
   border-radius: 3px;
+  margin-top: 20px;
 }
+
 .para {
   color: #b8b8bb;
   width: 280px;
   position: absolute;
-  top: 30rem;
-  left: 12rem;
+  top: 20rem;
+  left: 1rem;
   font-family: "Mitr", sans-serif;
 }
+
 .dot img {
   height: 37rem;
-  margin-left: 33rem;
   margin-bottom: 14rem;
   width: 23rem;
+  position: relative;
 }
 
 .head {
@@ -93,6 +84,7 @@ img {
   color: rgb(195, 194, 208);
   font-family: "Dosis", sans-serif;
 }
+
 .headi {
   position: absolute;
   right: -55.5rem;
@@ -102,6 +94,7 @@ img {
   color: white;
   font-family: "Mitr", sans-serif;
 }
+
 .headin {
   position: absolute;
   right: -871px;
@@ -111,6 +104,7 @@ img {
   color: #ecaf1a;
   font-weight: 600;
 }
+
 .headin i {
   color: #ecaf1a;
   position: absolute;
@@ -123,6 +117,9 @@ img {
   justify-content: center;
   align-items: center;
   margin-top: -22rem;
+  position: absolute;
+  left: -12.5rem;
+  top: 21rem;
 }
 
 .icon1 {
@@ -136,6 +133,7 @@ img {
   cursor: pointer;
   transition: transform 0.5s;
 }
+
 .icon2 {
   height: 28px;
   width: 28px;
@@ -147,6 +145,7 @@ img {
   cursor: pointer;
   transition: transform 0.5s;
 }
+
 .icon3 {
   height: 28px;
   width: 28px;
@@ -158,6 +157,7 @@ img {
   cursor: pointer;
   transition: transform 0.5s;
 }
+
 .icon4 {
   height: 28px;
   width: 28px;
@@ -169,6 +169,7 @@ img {
   cursor: pointer;
   transition: transform 0.5s;
 }
+
 .icon5 {
   height: 28px;
   margin: -22rem 76rem;
@@ -177,22 +178,28 @@ img {
   font-size: 20px;
   transition: transform 0.5s;
 }
+
 .icon1:hover {
   -webkit-transform: scale(1.5);
 }
+
 .icon2:hover {
   color: #fffffff1;
   -webkit-transform: scale(1.5);
 }
+
 .icon3:hover {
   -webkit-transform: scale(1.5);
 }
+
 .icon4:hover {
   -webkit-transform: scale(1.5);
 }
+
 .icon5:hover {
   -webkit-transform: scale(1.5);
 }
+
 .social_icon i {
   color: #ecaf1a;
   padding: 7.4px;
@@ -204,6 +211,7 @@ img {
   top: 50%;
   display: flex;
 }
+
 .icon6 {
   position: absolute;
   left: 7rem;
@@ -213,6 +221,7 @@ img {
   cursor: pointer;
   transition: transform 0.5s;
 }
+
 .icon7 {
   position: absolute;
   left: 9.7rem;
@@ -222,6 +231,7 @@ img {
   cursor: pointer;
   transition: transform 0.5s;
 }
+
 .icon8 {
   position: absolute;
   left: 4rem;
@@ -231,14 +241,17 @@ img {
   cursor: pointer;
   transition: transform 0.5s;
 }
+
 .icon6:hover {
   color: #fffffff1;
   -webkit-transform: scale(1.5);
 }
+
 .icon7:hover {
   color: #fffffff1;
   -webkit-transform: scale(1.5);
 }
+
 .icon8:hover {
   color: #fffffff1;
   -webkit-transform: scale(1.5);
@@ -249,7 +262,8 @@ img {
   width: 1300px;
   padding: 60px;
   margin: auto;
-  margin-top: 298px;
+  height: 0;
+  margin-top: -50px;
   box-shadow: 5px 10px 18px #2a2935;
 }
 
@@ -286,6 +300,7 @@ img {
   position: absolute;
   box-shadow: 2px 0px 10px #2a2935;
 }
+
 .boxes1 img {
   padding: 24px;
   margin: 4px -112px;
@@ -301,11 +316,13 @@ img {
   position: absolute;
   box-shadow: 2px 0px 10px #2a2935;
 }
+
 .boxes2 img {
   padding: 27px;
   margin: 5px -118px;
   cursor: pointer;
 }
+
 .boxes3 {
   background-color: #363543;
   width: 170px;
@@ -315,6 +332,7 @@ img {
   position: absolute;
   box-shadow: 2px 0px 10px #2a2935;
 }
+
 .boxes3 img {
   padding: 28px;
   margin: 5px -121px;
@@ -326,6 +344,7 @@ img {
   width: 425px;
   margin: 160px 220px;
 }
+
 .paragraph p {
   color: #a9a9ad;
   width: 242px;
@@ -333,16 +352,19 @@ img {
   font-size: 12px;
   padding: 5px 14px;
 }
+
 .figure h2 {
   color: #ecaf1a;
   padding: 161px;
   margin: 0px 65px;
   margin-top: 10px;
 }
+
 .figures {
   margin: -472px 183px;
   font-size: 10px;
 }
+
 .figures h2 {
   color: #ecaf1a;
   padding: 161px;
@@ -351,28 +373,29 @@ img {
 }
 
 .alb img {
-  position: absolute;
-  left: 54%;
-  top: 113%;
-  padding: 0px 16px;
+  top: -26rem;
+  position: relative;
+  left: 58rem;
 }
+
 .alb h2 {
   color: #fcfdff;
-  margin-left: 67.3rem;
+  margin-left: 67.9rem;
   font-size: 20px;
   margin-top: -485px;
   font-family: "Mitr", sans-serif;
 }
+
 .alb p {
   color: #a9a9ad;
-  margin-left: 1077px;
+  margin-left: 1090px;
   font-family: "Mitr", sans-serif;
   font-size: 11px;
 }
 
 .alb i {
   color: #ecaf1a;
-  margin: 0 150px;
+  margin: 0 6rem;
   font-size: 22px;
 }
 
@@ -390,68 +413,45 @@ img {
   border-right: none;
 }
 
-.albu img {
-  position: absolute;
-  left: 54%;
-  top: 125%;
-  padding: 0px 16px;
-}
-.albu h2 {
-  color: #fcfdff;
-  margin-left: 67.3rem;
-  font-size: 20px;
-  margin-top: -85px;
-  font-family: "Mitr", sans-serif;
-}
-.albu p {
-  color: #a9a9ad;
-  margin-left: 1077px;
-  font-family: "Mitr", sans-serif;
-  font-size: 11px;
-}
 
-.albu i {
-  color: #ecaf1a;
-  margin: 0 100px;
-  font-size: 22px;
-}
 
-.albu div {
-  width: 485px;
-  border: 1px solid #52525c;
-  padding: 42px;
-  width: 485px;
-  padding: 42px;
-  margin: 31px 910px;
-  outline: none;
-  border-left: none;
-  border-bottom: none;
-  border-right: none;
-}
+
+
+
+
+
+
+
 
 .albm img {
-  position: absolute;
-  left: 54%;
-  top: 137.9%;
+  position: relative;
+  left: 57rem;
+  top: -0.7rem;
   padding: 0px 16px;
 }
+
+.albm {
+  margin-top: -21rem;
+}
+
 .albm h2 {
   color: #fcfdff;
-  margin-left: 67.3rem;
+  margin-left: 67.9rem;
   font-size: 20px;
   margin-top: -75px;
   font-family: "Mitr", sans-serif;
 }
+
 .albm p {
   color: #a9a9ad;
-  margin-left: 1077px;
+  margin-left: 1090px;
   font-family: "Mitr", sans-serif;
   font-size: 11px;
 }
 
 .albm i {
   color: #ecaf1a;
-  margin: 0 86px;
+  margin: 0 1.6rem;
   font-size: 22px;
 }
 
@@ -471,6 +471,55 @@ img {
 .mb-1 {
   color: white;
 }
+
 .list-inline-item a {
   color: white;
+}
+
+footer {
+  position: relative;
+  top: 25rem;
+}
+
+.paragraph {
+  margin-left: -14rem;
+}
+
+.wrap {
+  margin-top: 20rem;
+  margin-left: -16rem;
+}
+
+#row {
+  width: 25rem;
+  margin-left: 58rem;
+}
+
+.mainpara {
+  position: absolute;
+  top: 10rem
+}
+
+.mainpara h2 {
+  position: absolute;
+  top: 25%;
+  font-size: 70px;
+  font-family: "Dosis", sans-serif;
+  color: #9e9dab;
+}
+
+.mainpara h1 {
+  font-size: 2.5rem;
+  font-size: 78px;
+  font-family: monospace;
+  left: 10%;
+  color: #feffff;
+  font-family: "Mitr", sans-serif;
+  margin-top: 10rem;
+}
+
+
+.footers{
+  position: relative;
+    top: 29.6rem;
 }
