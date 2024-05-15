@@ -270,7 +270,7 @@ img {
 .bod {
   background-color: #282834;
   width: 100%;
-  height: 100%;
+  height: 1000%;
   position: absolute;
   top: 816px;
   z-index: -1;
